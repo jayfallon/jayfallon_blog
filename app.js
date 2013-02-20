@@ -4,7 +4,7 @@ var
   poet     = require( 'poet' )( app );
 
 poet.set({
-  postsPerPage : 3,
+  postsPerPage : 5,
   posts        : './_posts',
   metaFormat   : 'json'
 }).createPostRoute( '/myposts/:post', 'post' )
