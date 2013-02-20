@@ -6,6 +6,8 @@ div.post
   div.content
     != post.preview
   div.tags
-    - each tag in post.tags
-      a(href=tagUrl(tag))
-        span.label.label-info #{tag}
+    - if (post.tags)
+      p 
+        | tagged with:&nbsp;
+        - each tag in post.tags
+          a(href=tagUrl(tag)) #{tag}

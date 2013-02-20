@@ -309,3 +309,79 @@ header .avatar{
 p.footerLinks a{
   margin-right: 12px;
 }
+
+ul.pagination{
+  margin:0;
+  padding:0;
+  float:left;
+}
+
+ul.pagination li{
+  margin: 0 8px 8px 0px;
+  padding: 4px 10px;
+  border: 1px solid #e5e5e5;
+  list-style: none;
+  float: left;
+}
+
+ul.pagination li.active{
+  background-color: #39c;
+  border: 1px solid #39c;
+}
+
+ul.pagination li.active a{
+  color: #fff;
+}
+
+header ul a.active {
+  color:#eee;
+  background: -moz-linear-gradient(top, #39c 0%, #39c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#39c), color-stop(100%,#39c));
+  background: -webkit-linear-gradient(top, #39c 0%,#39c 100%);
+  background: -o-linear-gradient(top, #39c 0%,#39c 100%);
+  background: -ms-linear-gradient(top, #39c 0%,#39c 100%);
+  background: linear-gradient(top, #39c 0%,#39c 100%);
+  -webkit-box-shadow: inset 0px 2px 2px 0px #39c;
+  -moz-box-shadow: inset 0px 2px 2px 0px #39c;
+  box-shadow: inset 0px 2px 2px 0px #39c;
+}
+
+header ul a.active strong{
+  color: #eee;
+}
+
+div.resume .content{
+  margin-bottom: 22px;
+}
+
+div.resume .employer{
+  font-weight: bold;
+}
+
+div.resume .postion{
+  
+}
+
+div.resume .date{
+  margin-bottom: 12px;
+  font-style:italic;
+}
+
+ul.metaInfo{
+  margin:0 0 16px;
+  padding:0;
+}
+
+ul.metaInfo li{
+  list-style:none;
+}
+
+div.tags a{
+
+}
+div.tags a:after{
+  content: ", ";
+}
+div.tags a:last-child:after{
+  content:"";
+}

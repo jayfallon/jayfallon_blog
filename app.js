@@ -21,4 +21,6 @@ app.use( app.router );
 
 app.get( '/', function ( req, res ) { res.render( 'index' ) });
 
+app.get( '/resume', function ( req, res ) { res.render( 'resume' ) });
+
 app.listen( 3000 );
