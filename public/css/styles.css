@@ -24,6 +24,11 @@ h1 {
   font-size:28px;
 }
 
+h1.blogTitle a{
+  color: #222;
+  font-weight: 600;
+}
+
 h2 {
   color:#393939;
 }
@@ -284,4 +289,9 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+.avatar{
+  margin-right: 10px;
+  float: left;
 }
