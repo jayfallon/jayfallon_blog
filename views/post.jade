@@ -7,7 +7,9 @@ block content
     span.date #{post.date.getMonth()+1}.#{post.date.getDate()}.#{post.date.getFullYear()}
     div.content
       != post.content
-    div.tags
-      - each tag in post.tags
-        a(href=tagUrl(tag))
-          span.label.label-info #{tag}
+      div.tags
+        - if (post.tags)
+          p 
+            | tagged with:&nbsp;
+            - each tag in post.tags
+              a.tags(href=tagUrl(tag)) #{tag}

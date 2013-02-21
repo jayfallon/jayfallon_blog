@@ -333,3 +333,24 @@ li {
 
 footer {
   margin: 20px 0; }
+
+div.post {
+  margin-bottom: 30px; }
+
+a.tags:after {
+  content: ", "; }
+
+div.pagination {
+  padding-top: 30px;
+  border-top: 1px solid #eeeeee; }
+
+.employer {
+  font-weight: bold; }
+
+.employmentDate {
+  font-size: 13px;
+  font-style: italic;
+  float: right; }
+
+.employmentContent {
+  padding-bottom: 20px; }
