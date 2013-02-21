@@ -1,0 +1,27 @@
+
+//header styles
+header{
+  margin-bottom: 20px;
+  padding:20px 0;
+  border-bottom:1px solid #eee;
+}
+
+header h1.blogTitle{
+  margin-top:0;
+  padding-top:0;
+}
+
+header ul.social{
+  li{
+    margin: 10px 8px 0 0;
+    list-style:none;
+    float:left;
+  }
+}
+header ul.curriculum{
+  float:right;
+  li{
+    margin:10px 0 0 8px;
+    float:left;
+  }
+}

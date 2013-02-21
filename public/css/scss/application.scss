@@ -1,0 +1,25 @@
+//import html5 boilerplate styles
+@import "boilerplate/main.scss";
+//import fonts
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+//import app styles
+@import "header.scss";
+
+body {
+  font:15px/1.7 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:normal;
+  color:#444;
+}
+
+ul,li{
+  margin:0;
+  padding:0;
+}
+
+li{
+  list-style:none;
+}
+
+footer{
+  margin:20px 0;
+}
